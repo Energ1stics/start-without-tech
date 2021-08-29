@@ -18,17 +18,23 @@ namespace StartWithoutTech
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
-            listing.CheckboxLabeled("UseSelectedTechLevelLabel".Translate() + ": ",
+
+            listing.CheckboxLabeled("UseSelectedTechLevelLabel".Translate() + "*: ",
                                     ref settings.useSelectedTechLevel,
                                     "UseSelectedTechLevelTooltip".Translate());
-            listing.AddLabeledSlider("StartingTechLevelLabel".Translate() + ": ",
+            listing.AddLabeledSlider("StartingTechLevelLabel".Translate() + "*: ",
                                      ref settings.startingTechLevel);
+            listing.Gap();
+            listing.AddHorizontalLine();
+            listing.Gap();
 
             if (Current.ProgramState == ProgramState.Playing)
             {
                 listing.AddLabeledSlider("SetCurrentTechLevelLabel".Translate() + ": ",
                                          ref Find.FactionManager.OfPlayer.def.techLevel);
             }
+
+            listing.AddLabelLine("* " + "RequiresRestartLabel".Translate());
 
             listing.End();
             settings.Write();
