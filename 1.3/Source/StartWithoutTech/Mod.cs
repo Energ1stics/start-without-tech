@@ -1,4 +1,5 @@
-﻿using SettingsHelper;
+﻿using RimWorld.Planet;
+using SettingsHelper;
 using UnityEngine;
 using Verse;
 
@@ -18,10 +19,17 @@ namespace StartWithoutTech
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
             listing.CheckboxLabeled("UseSelectedTechLevelLabel".Translate() + ": ",
-                                            ref settings.useSelectedTechLevel,
-                                            "Some Tooltip yolo");
+                                    ref settings.useSelectedTechLevel,
+                                    "UseSelectedTechLevelTooltip".Translate());
             listing.AddLabeledSlider("StartingTechLevelLabel".Translate() + ": ",
-                                             ref settings.startingTechLevel);
+                                     ref settings.startingTechLevel);
+
+            if (Current.ProgramState == ProgramState.Playing)
+            {
+                listing.AddLabeledSlider("SetCurrentTechLevelLabel".Translate() + ": ",
+                                         ref Find.FactionManager.OfPlayer.def.techLevel);
+            }
+
             listing.End();
             settings.Write();
             base.DoSettingsWindowContents(inRect);
