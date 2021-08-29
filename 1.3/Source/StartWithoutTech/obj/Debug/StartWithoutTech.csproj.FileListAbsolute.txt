@@ -1,0 +1,9 @@
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\Assemblies\StartWithoutTech.dll
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\Source\StartWithoutTech\obj\Debug\StartWithoutTech.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\Source\StartWithoutTech\obj\Debug\StartWithoutTech.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\Source\StartWithoutTech\obj\Debug\StartWithoutTech.dll
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\1.3\Assemblies\StartWithoutTech.dll
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\1.3\Source\StartWithoutTech\obj\Debug\StartWithoutTech.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\1.3\Source\StartWithoutTech\obj\Debug\StartWithoutTech.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\1.3\Source\StartWithoutTech\obj\Debug\StartWithoutTech.csproj.CopyComplete
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\Start Without Tech\1.3\Source\StartWithoutTech\obj\Debug\StartWithoutTech.dll

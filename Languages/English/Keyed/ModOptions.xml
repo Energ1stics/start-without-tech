@@ -1,0 +1,13 @@
+<LanguageData>
+
+	<!-- Mod Name -->
+	<StartWithoutTechMod>Start Without Tech</StartWithoutTechMod>
+
+	<!-- Labels -->
+	<UseSelectedTechLevelLabel>Use Selected Tech Level</UseSelectedTechLevelLabel>
+	<StartingTechLevelLabel>Starting Tech Level</StartingTechLevelLabel>
+	
+	<!-- Tooltips -->
+	<UseSelectedTechLevelTooltip>All new games will start with the tech level below.</UseSelectedTechLevelTooltip>
+
+</LanguageData>
