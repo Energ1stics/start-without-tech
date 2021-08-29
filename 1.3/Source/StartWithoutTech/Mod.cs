@@ -26,5 +26,10 @@ namespace StartWithoutTech
             settings.Write();
             base.DoSettingsWindowContents(inRect);
         }
+
+        public override string SettingsCategory()
+        {
+            return "StartWithoutTechModName".Translate();
+        }
     }
 }
