@@ -1,7 +1,7 @@
 <LanguageData>
 
 	<!-- Mod Name -->
-	<StartWithoutTechMod>Start Without Tech</StartWithoutTechMod>
+	<StartWithoutTechModName>Start Without Tech</StartWithoutTechModName>
 
 	<!-- Labels -->
 	<UseSelectedTechLevelLabel>Use Selected Tech Level</UseSelectedTechLevelLabel>
