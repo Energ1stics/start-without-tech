@@ -4,8 +4,10 @@
 	<StartWithoutTechModName>Start Without Tech</StartWithoutTechModName>
 
 	<!-- Labels -->
+	<RequiresRestartLabel>Takes effect after restarting RimWorld</RequiresRestartLabel>
 	<UseSelectedTechLevelLabel>Use Selected Tech Level</UseSelectedTechLevelLabel>
 	<StartingTechLevelLabel>Starting Tech Level</StartingTechLevelLabel>
+	<SetCurrentTechLevelLabel>Set Current Tech Level</SetCurrentTechLevelLabel>
 	
 	<!-- Tooltips -->
 	<UseSelectedTechLevelTooltip>All new games will start with the tech level below.</UseSelectedTechLevelTooltip>
