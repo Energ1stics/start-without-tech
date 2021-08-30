@@ -1,5 +1,6 @@
 ﻿using Verse;
 using RimWorld;
+using System.Linq;
 
 namespace StartWithoutTech
 {
@@ -8,9 +9,9 @@ namespace StartWithoutTech
     {
         static TechRemover()
         {
-            foreach (FactionDef factionDef in DefDatabase<FactionDef>.AllDefs)
+            foreach (FactionDef factionDef in DefDatabase<FactionDef>.AllDefs.Where(f => f.isPlayer == true))
             {
-                if (!factionDef.isPlayer)
+                if (factionDef.startingResearchTags == null)
                 {
                     continue;
                 }
@@ -18,6 +19,10 @@ namespace StartWithoutTech
             }
             foreach (MemeDef memeDef in DefDatabase<MemeDef>.AllDefs)
             {
+                if (memeDef.startingResearchProjects == null)
+                {
+                    continue;
+                }
                 memeDef.startingResearchProjects.Clear();
             }
         }
