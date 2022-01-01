@@ -8,8 +8,12 @@
 	<UseSelectedTechLevelLabel>Use Selected Tech Level</UseSelectedTechLevelLabel>
 	<StartingTechLevelLabel>Starting Tech Level</StartingTechLevelLabel>
 	<SetCurrentTechLevelLabel>Set Current Tech Level</SetCurrentTechLevelLabel>
+	<RemoveFactionResearchesLabel>Remove start researches from faction</RemoveFactionResearchesLabel>
+	<RemoveMemeResearchesLabel>Remove start researches from memes</RemoveMemeResearchesLabel>
 	
 	<!-- Tooltips -->
 	<UseSelectedTechLevelTooltip>All new games will start with the tech level below.</UseSelectedTechLevelTooltip>
+	<RemoveFactionResearchesTooltip>All new games will start without starting researches from your faction.</RemoveFactionResearchesTooltip>
+	<RemoveMemeResearchesTooltip>All new games will start without starting researches from your memes.</RemoveMemeResearchesTooltip>
 
 </LanguageData>
