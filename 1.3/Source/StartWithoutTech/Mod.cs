@@ -1,5 +1,4 @@
-﻿using RimWorld.Planet;
-using SettingsHelper;
+﻿using SettingsHelper;
 using UnityEngine;
 using Verse;
 
@@ -18,7 +17,18 @@ namespace StartWithoutTech
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
+            listing.Gap();
 
+            listing.CheckboxLabeled("RemoveFactionResearchesLabel".Translate() + "*: ",
+                                    ref settings.removeFactionResearches,
+                                    "RemoveFactionResearchesTooltip".Translate());
+            listing.Gap();
+            listing.CheckboxLabeled("RemoveMemeResearchesLabel".Translate() + "*: ",
+                                    ref settings.removeMemeResearches,
+                                    "RemoveMemeResearchesTooltip".Translate());
+            listing.Gap();
+            listing.AddHorizontalLine();
+            listing.Gap();
             listing.CheckboxLabeled("UseSelectedTechLevelLabel".Translate() + "*: ",
                                     ref settings.useSelectedTechLevel,
                                     "UseSelectedTechLevelTooltip".Translate());
